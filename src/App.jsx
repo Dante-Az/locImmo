@@ -8,9 +8,9 @@ function App() {
   return (
     // Crée une div avec la classe "App"
     <div className="App">
-      // Crée une div avec la classe "Content"
+      {/* // Crée une div avec la classe "Content" */}
       <div className="Content">
-        // Utilise le composant AppRouter qui définit les routes de l'application
+        {/* // Utilise le composant AppRouter qui définit les routes de l'application */}
         <AppRouter />
       </div>
     </div>
