@@ -5,6 +5,7 @@ import About from '../../pages/About/About'; // Importe le composant About depui
 import Erreur from '../../pages/Erreur/Erreur'; // Importe le composant Erreur depuis le fichier Erreur.jsx
 import Logement from "../../pages/Logement/Logement"; // Importe le composant Logement depuis le fichier Logement.jsx
 import Header from "../../components/Header/Header";
+// Définit le composant AppRouter
 
 export default function AppRouter() {
   return (
