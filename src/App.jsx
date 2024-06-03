@@ -1,5 +1,5 @@
 // App.jsx
-import React from 'react'; // Importe la bibliothèque React
+// Importe les fichiers nécessaires à l'application
 import AppRouter from '../src/components/Router/Router'; // Importe le composant AppRouter depuis le fichier Router.jsx
 
 // Définit le composant App
