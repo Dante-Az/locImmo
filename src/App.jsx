@@ -1,6 +1,7 @@
 // App.jsx
 // Importe les fichiers nécessaires à l'application
 import AppRouter from '../src/components/Router/Router'; // Importe le composant AppRouter depuis le fichier Router.jsx
+import './App.css'; // Importe le fichier App.css pour styliser l'application
 
 // Définit le composant App
 function App() {

@@ -1,0 +1,17 @@
+.Content {
+    max-width: 1240px;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 1338px) {
+    .Content {
+        margin: 0 50px;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    .Content {
+        margin: 0 20px;
+    }
+}
