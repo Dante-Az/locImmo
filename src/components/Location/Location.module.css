@@ -1,0 +1,25 @@
+.title {
+    font-size: 36px;
+    color:#FF6060;
+    font-weight: 500;
+    margin: 0 auto;
+}
+
+.location {
+    font-size: 18px;
+    color:#FF6060;
+    font-weight: 500;
+    margin: 5px auto 0;
+}
+
+@media screen and (max-width:845px) {
+    .title {
+        font-size: 27px;
+    }
+}
+
+@media screen and (max-width:630px) {
+    .location {
+        font-size: 14px;
+    }
+}
