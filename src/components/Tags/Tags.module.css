@@ -1,0 +1,26 @@
+.tagsBackground {
+    background: #FF6060;
+    border-radius: 10px;
+}
+
+.tagsText {
+    color: white;
+    font-size: 14px;
+    margin: 4px 40px;
+}
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width:630px) {
+
+    .tagsBackground {
+        border-radius: 5px;
+    }
+
+    .tagsText {
+        font-size: 10px;
+        margin: 3px 30px;
+        align-items: center;
+    }
+    
+}
