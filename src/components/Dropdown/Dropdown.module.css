@@ -1,0 +1,128 @@
+.dropdownCard {
+    position:relative;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 33px;
+}
+
+.dropdownCardRow {
+    width: 48%;
+}
+
+.dropdownContent {
+    background: #F6F6F6;
+    margin-top: -10px;
+    z-index: -1;
+    border-radius: 5px;
+    height: 100%;
+}
+
+.dropdownBtn {
+    display: flex;
+    align-items: center;
+    background: #FF6060;
+    border-radius: 5px;
+    cursor:pointer;
+}
+
+.list {
+    list-style: none;
+    padding: 0;
+    margin: 36px 12px auto 20px;
+}
+
+.dropdownRowRadius {
+    border-radius: 10px;
+}
+
+.dropdownTitle {
+    font-size: 24px;
+    font-weight: 500;
+    color: white;
+    margin: 0 18px;
+    padding: 2px 0;
+}
+
+.dropdownTitleRow {
+    font-size: 18px;
+    margin: 13px 20px;
+}
+
+.dropdownArrow {
+    position: absolute;
+    right: 18px;
+}
+
+.dropdownArrowRot {
+    transform: rotate(180deg);
+}
+
+.dropdownText {
+    color: #FF6060;
+    font-weight: 400;
+    font-size: 24px;
+    margin: 36px 20px 19px;
+}
+
+.dropdownArray {
+    color: #FF6060;
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.dropdownTextRow {
+    font-size: 18px;
+}
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 768px) {
+
+    .dropdownTitle {
+        font-size: 18px;
+    }
+
+    .dropdownText {
+        font-size: 18px;
+        margin: 23px 6px 27px 12px
+    }
+
+    .list {
+        margin: 23px 6px 27px 12px;
+    }
+
+    .dropdownTitleRow {
+        font-size: 15px;
+        margin: 8px 18px;
+    }
+
+    .dropdownTextRow {
+        font-size: 15px;
+        margin-bottom: 3px;
+    }
+    
+}
+
+@media screen and (max-width:630px) {
+    
+    .dropdownCard {
+        width: 100%;
+    }
+
+    .dropdownTitleRow {
+        margin: 6px 18px;
+    }
+}
+
+@media screen and (max-width: 460px) {
+
+    .dropdownArrow {
+        height: 20px;
+        width: 12px;
+    }
+
+    .dropdownTitle, .dropdownText, .dropdownTextRow {
+        font-size: 12px;
+    }
+}
+
