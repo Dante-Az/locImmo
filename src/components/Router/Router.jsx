@@ -14,7 +14,7 @@ export default function AppRouter() {
       <Routes>
         <Route path="/" element={<Home />} /> {/* Route pour la page d'accueil */}
         <Route path="/about" element={<About />} /> {/* Route pour la page About */}
-        <Route path="/logement" element={<Logement />} /> {/* Route pour la page Logement */}
+        <Route path="/logement/:id" element={<Logement />} /> {/* Route pour la page Logement */}
         <Route path="*" element={<Erreur />} /> {/* Route pour toutes les autres pages */}
       </Routes>
     </Router>
