@@ -1,0 +1,18 @@
+.cardsContainer {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color:#F6F6F6;
+    padding: 50px 25px;
+    margin-bottom: 200px;
+    border-radius: 25px;
+}
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width:768px) {
+    .cardsContainer {
+        background-color: white;
+        padding: 0;
+    }
+}
