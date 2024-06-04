@@ -1,6 +1,7 @@
 import Banner from '../../components/Banner/Banner'
 import Dropdown from '../../components/Dropdown/Dropdown'
 import styles from './About.module.css'
+import image from '../../assets/IMG2.jpg'
 import data from './AboutData'
 export default function About() {
     const dropdownMenu = data.map(card => {
@@ -13,7 +14,7 @@ export default function About() {
     return(
         <div>
             <Banner 
-            image = "https://source.unsplash.com/Bkci_8qcdvQ"
+            image = {image}
             imageAlt ="vue sur des montagnes"
             text=""
             />

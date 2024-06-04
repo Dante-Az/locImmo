@@ -5,7 +5,7 @@ export default function Footer() {
         <footer className={styles.footer}>
             <Logo className={styles.footerLogo}/>
             <div className={styles.footerText}>
-            © 2020 Kasa. All rights reserved
+            © 2024 Jérémy Projet Greta Final. All rights reserved
             </div>
         </footer>
     )
